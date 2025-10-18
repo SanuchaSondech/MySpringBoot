@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>borrowing data</title>
+</head>
+<body>
+    <h2>borrowing data</h2>
+    <table>
+        <tr><th>ID</th><th>Name</th><th>Book</th><th>Date</th></tr>
+        <tr th:each="b : ${borrowings}">
+            <td th:text="${b.p_id}"></td>
+            <td th:text="${b.name}"></td>
+            <td th:text="${b.book}"></td>
+            <td th:text="${b.date}"></td>
+        </tr>
+    </table>
+
+</body>
+</html>
