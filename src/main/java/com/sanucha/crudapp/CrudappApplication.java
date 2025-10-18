@@ -16,7 +16,7 @@ public class CrudappApplication {
 	}
 
     @Bean
-    public CommandLineRunner CommandLineRunner(PersonDIO dao){
+    public CommandLineRunner commandLineRunner(PersonDIO dao){
         return runner->{
             upDateData(dao);
         };
