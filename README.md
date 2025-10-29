@@ -16,13 +16,9 @@ Built to learn how an app works with a database.
 A mini project to practice using **Spring Boot** with a database.  
 It is a book borrowing management app (first version) and is being improved.
 
----
-
-## 🛠️ Technologies Used
-- Java  
-- Spring Boot  
-- HTML & CSS  
-- MySQL  
+### 4. BorrowBookAppV2
+This project was developed from BorrowBookApp. It adds new functions, 
+improves the logic, and redesigns the system to make it easier to update and fix in the future.
 
 ---
 
